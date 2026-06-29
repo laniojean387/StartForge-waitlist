@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pnpm --filter @workspace/startforge run build",
+  "installCommand": "pnpm install",
+  "outputDirectory": "artifacts/startforge/dist/public",
+  "framework": null,
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
